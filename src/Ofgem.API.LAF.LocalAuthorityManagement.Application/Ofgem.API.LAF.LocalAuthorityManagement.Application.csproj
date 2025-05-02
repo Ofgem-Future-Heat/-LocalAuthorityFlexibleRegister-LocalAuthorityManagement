@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Declarations\CommandHandlers\**" />
+    <Compile Remove="Declarations\Commands\**" />
+    <EmbeddedResource Remove="Declarations\CommandHandlers\**" />
+    <EmbeddedResource Remove="Declarations\Commands\**" />
+    <None Remove="Declarations\CommandHandlers\**" />
+    <None Remove="Declarations\Commands\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChoETL" Version="1.2.1.70" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Ofgem.LAF.SharedLibrary" Version="1.0.225" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>

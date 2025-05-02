@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.LAF.LocalAuthorityManagement.Api", "src\Ofgem.API.LAF.LocalAuthorityManagement.Api\Ofgem.API.LAF.LocalAuthorityManagement.Api.csproj", "{B8B91BD1-FE4E-4A2C-B851-9E04378297CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.LAF.LocalAuthorityManagement.Application", "src\Ofgem.API.LAF.LocalAuthorityManagement.Application\Ofgem.API.LAF.LocalAuthorityManagement.Application.csproj", "{3FD425B6-0192-4564-9A8F-3D7672364797}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.LAF.LocalAuthorityManagement.Data", "src\Ofgem.API.LAF.LocalAuthorityManagement.Data\Ofgem.API.LAF.LocalAuthorityManagement.Data.csproj", "{8492F8D7-FB93-465B-BC5D-7AB63719A442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.LAF.LocalAuthorityManagement.Domain", "src\Ofgem.API.LAF.LocalAuthorityManagement.Domain\Ofgem.API.LAF.LocalAuthorityManagement.Domain.csproj", "{81544F90-31CB-4845-B4AB-92DF9BDF0877}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.LAF.LocalAuthorityManagement.Application.UnitTests", "tests\Ofgem.API.LAF.LocalAuthorityManagement.Application.Tests\Ofgem.API.LAF.LocalAuthorityManagement.Application.UnitTests.csproj", "{18C0E970-9373-4371-BAF4-93C8DF5BC79A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B91BD1-FE4E-4A2C-B851-9E04378297CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B91BD1-FE4E-4A2C-B851-9E04378297CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B91BD1-FE4E-4A2C-B851-9E04378297CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B91BD1-FE4E-4A2C-B851-9E04378297CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD425B6-0192-4564-9A8F-3D7672364797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD425B6-0192-4564-9A8F-3D7672364797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD425B6-0192-4564-9A8F-3D7672364797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD425B6-0192-4564-9A8F-3D7672364797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8492F8D7-FB93-465B-BC5D-7AB63719A442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8492F8D7-FB93-465B-BC5D-7AB63719A442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8492F8D7-FB93-465B-BC5D-7AB63719A442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8492F8D7-FB93-465B-BC5D-7AB63719A442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81544F90-31CB-4845-B4AB-92DF9BDF0877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81544F90-31CB-4845-B4AB-92DF9BDF0877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81544F90-31CB-4845-B4AB-92DF9BDF0877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81544F90-31CB-4845-B4AB-92DF9BDF0877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C0E970-9373-4371-BAF4-93C8DF5BC79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C0E970-9373-4371-BAF4-93C8DF5BC79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C0E970-9373-4371-BAF4-93C8DF5BC79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C0E970-9373-4371-BAF4-93C8DF5BC79A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EDA50D2-AF5B-4DB1-BDB1-8FECA8A5301E}
+	EndGlobalSection
+EndGlobal
